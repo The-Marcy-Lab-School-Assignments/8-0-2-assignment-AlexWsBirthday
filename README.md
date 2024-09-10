@@ -14,7 +14,7 @@ In this assignment, you will use Express as a Middleman for API requests. Refer 
 
 ## Short Responses
 
-Do them first!!
+* <input type="checkbox" checked> Do them first!!
 
 ## Grading
 
@@ -34,20 +34,20 @@ This assignment has 12 tasks and 1 bonus task:
 
 Before continuing, make sure that these tasks are completed!
 
-* <input type="checkbox" >  Has a `server` folder with an `index.js` file and a `package.json` file inside
-* <input type="checkbox" >  `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
-* <input type="checkbox" >  `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
-* <input type="checkbox" >  Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
+* <input type="checkbox" checked>  Has a `server` folder with an `index.js` file and a `package.json` file inside
+* <input type="checkbox" checked>  `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
+* <input type="checkbox" checked>  `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+* <input type="checkbox" checked>  Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
 
 **Server/Frontend Application Technical Requirements**
 
-* <input type="checkbox" >  In `index.js`, the `express()` function is used to create an `app`
-* <input type="checkbox" >  The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
-* <input type="checkbox" >  The `app` listens on an available port (I recommend `8080`)
-* <input type="checkbox" >  A `/api/gifs` endpoint exists. 
-* <input type="checkbox" >  The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
-* <input type="checkbox" >  The frontend `vite.config.js` file has been updated to enable proxy requests
-* <input type="checkbox" >  The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
+* <input type="checkbox" checked>  In `index.js`, the `express()` function is used to create an `app`
+* <input type="checkbox" checked>  The `express.static()` middleware is used to serve the static assets in the React application's `dist/` folder.
+* <input type="checkbox" checked>  The `app` listens on an available port (I recommend `8080`)
+* <input type="checkbox" checked>  A `/api/gifs` endpoint exists. 
+* <input type="checkbox" checked>  The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
+* <input type="checkbox" checked>  The frontend `vite.config.js` file has been updated to enable proxy requests
+* <input type="checkbox" checked>  The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
 * <input type="checkbox" >  Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
 
 **Deployment Technical Requirements**
