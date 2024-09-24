@@ -6,6 +6,7 @@ const app = express();
 const path = require('path');
 const fetchData = require('./utils/fetchData')
 
+
 //checking that our api key is imported to the server?
 // console.log(process.env.API_KEY)
 
@@ -19,8 +20,9 @@ const logRoutes = (req, res, next) => {
     next(); // Passes the request to the next middleware/controller
 };
 
-
-const pathToFrontendDist = path.join(__dirname, '../frontend/dist');
+//make sure your path to front end is accurate to connect the server (backend) to the front end 
+//so your data shows up and the api key is protected.
+const pathToFrontendDist = path.join(__dirname, '../giphy-search/dist');
 const serveStatic = express.static(pathToFrontendDist);
 
 //controllers
